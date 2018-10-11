@@ -32,11 +32,12 @@ h1 {
 }
 
 .bgr {
-  background-image: url('/Users/tobias/Desktop/wonderful_site/default.jpg');
+  background-image: url('pirate-cubes.jpg');
+  background-size: cover;
 }
 
 .linkToGotop {
   text-align: center;
   text-color: red;
-  margin-top: 500px;
+  margin-top: 200px;
 }

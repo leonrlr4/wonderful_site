@@ -15,7 +15,7 @@ h1 {
   width: 800;
   text-indent: 275px;
   padding: 50px;
-  margin-left: 380px;
+  margin-left: 430px;
   margin-right: 430px;
 }
 
@@ -28,7 +28,12 @@ h1 {
   border-style: double;
   padding-left: 130;
   padding-top: 4.7em;
-  margin-left: 35em;
+  margin: 600px;
+}
+
+.input{
+  text-align: center;
+   padding: 40px;
 }
 
 .bgr {
@@ -40,4 +45,20 @@ h1 {
   text-align: center;
   text-color: red;
   margin-top: 200px;
+}
+
+.grid{
+  background-color: rgb(161, 17, 135);
+  display: grid;
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 20px;
+  grid-column-gap: 20px;
+  grid-template-columns: 200px 200px auto;
+
+}
+.grid-item{
+  background-color: white;
+  font-size: 20px;
 }

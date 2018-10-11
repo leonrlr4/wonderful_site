@@ -1,0 +1,72 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>More Forms For Html5</title>
+  <style media="screen">
+    #signInBox{
+      color: rgb(7, 70, 101);
+      font-style: italic;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    #colorText{
+      font-size: 18px;
+      font-family: fantasy;
+      color: rgb(7, 70, 101);
+    }
+    #country{
+      font-size: 18px;
+      font-weight: bold;
+      color: rgb(89, 41, 177);
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <p id="signInBox">sign in</p>
+    <input type="text" name="name" placeholder="Enter your name">
+    <br>
+    <input type="password" name="password" placeholder="Enter your password">
+
+  </div>
+  <br>
+  <div>
+    <p id="colorText">Your Favorite color?</p>
+    <table border="1" border-collapsee="collapsee" height='180px' width='210px'>
+      <tr>
+        <th>type</th>
+        <th>color</th>
+        <th>like</th>
+      </tr>
+      <tr>
+        <td> <input type="radio" name="type" value="light">ligth</td>
+        <td> <input type="radio" name="color" value="blue">blue</td>
+        <td> <input type="radio" name="xihao" value="liked">liked?</td>
+      </tr>
+      <tr>
+        <td> <input type="radio" name="type" value="heavy">heavy</td>
+        <td> <input type="radio" name="color" value="red">red</td>
+        <td> <input type="radio" name="xihao" value="liked">liked?</td>
+      </tr>
+    </table>
+  </div>
+  <div>
+    <p id="country">Choose your country</p>
+    <input list="countries" name="country" placeholder="select your country">
+    <datalist id="countries">
+      <option value="United States"></option>
+      <option value="United Kindom"></option>
+      <option value="China"></option>
+      <option value="Taiwan"></option>
+      <option value="Honkong"></option>
+    </datalist>
+  </div>
+
+</body>
+
+</html>

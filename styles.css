@@ -34,3 +34,9 @@ h1 {
 .bgr {
   background-image: url('/Users/tobias/Desktop/wonderful_site/default.jpg');
 }
+
+.linkToGotop {
+  text-align: center;
+  text-color: red;
+  margin-top: 500px;
+}

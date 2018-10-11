@@ -7,7 +7,7 @@ h1 {
   margin-right: 400px;
 }
 
-#scrapeExample {
+.scrapeExample {
   color: black;
   font-family: fantasy;
   background-color: #35c246;
@@ -15,4 +15,22 @@ h1 {
   width: 800;
   text-indent: 275px;
   padding: 50px;
+  margin-left: 380px;
+  margin-right: 430px;
+}
+
+.login {
+  height: 100px;
+  width: 400px;
+  background-color: #dae622;
+  margin-top: 30px;
+  margin-bottom: 1100px;
+  border-style: double;
+  padding-left: 130;
+  padding-top: 4.7em;
+  margin-left: 35em;
+}
+
+.bgr {
+  background-image: url('/Users/tobias/Desktop/wonderful_site/default.jpg');
 }

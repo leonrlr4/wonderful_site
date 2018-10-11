@@ -1,3 +1,4 @@
+$color: yellow;
 h1 {
   text-align: center;
   color: blue;
@@ -61,4 +62,14 @@ h1 {
 .grid-item{
   background-color: white;
   font-size: 20px;
+}
+
+#ul{
+  font-size: 20px;
+  color: $color;
+}
+
+#ol{
+  font-size: 20px;
+  color: $color;
 }

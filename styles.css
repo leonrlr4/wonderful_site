@@ -1,0 +1,18 @@
+h1 {
+  text-align: center;
+  color: blue;
+  background-color: #d46ac9;
+  height: inherit;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+#scrapeExample {
+  color: black;
+  font-family: fantasy;
+  background-color: #35c246;
+  height: auto;
+  width: 800;
+  text-indent: 275px;
+  padding: 50px;
+}
